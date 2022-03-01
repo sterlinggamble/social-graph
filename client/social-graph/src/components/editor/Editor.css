@@ -1,0 +1,155 @@
+.editor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+    background: rgba(88, 88, 88, 0.6);
+    z-index: 2;
+}
+
+.editor-main {
+    position: fixed;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 95%;
+    top: 5%;
+    overflow: hidden;
+    background-color: #F7F7F9;
+}
+
+.editor nav {
+    background-color: white;
+    /* position: relative; */
+    /* left: 0px;
+    right: 0px;
+    top: 0px; */
+    z-index: 1;
+    height: 78px;
+}
+
+.nav-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.editor select {
+    height: 44px;
+}
+
+.display-block {
+    display: block;
+}
+  
+.display-none {
+    display: none;
+}
+
+.editor-body {
+    height: 95%;
+}
+
+.nodes {
+    height: inherit;
+    width: inherit;
+}
+
+/* Test Control Buttons */
+.controls {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
+.control-button {
+    font-size: 34px;
+    cursor: pointer;
+}
+
+/* Navigation Buttons  */
+
+/* .nav-buttons {
+    margin-left: auto;
+} */
+
+.cancel-button {
+    height: 44px;
+    width: 126px;
+    border-radius: 10px;
+    border: 3px solid #F4F4F4;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: #F4F4F4;
+}
+
+.save-button {
+    margin-left: 13px;
+    height: 44px;
+    width: 101px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #1F8DED;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #409ae9;
+}
+
+/* Editor Cards */
+.editor-cards {
+    position: absolute;
+    z-index: 5;
+    right: 15px;
+    padding-top: 15px;
+}
+
+.node-menu {
+    margin-bottom: 7px;
+    background-color: white;
+    border-radius: 10px;
+    width: 366px;
+    height: auto;
+}
+
+.node-menu-container {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin-left: 20px;
+}
+
+.node-title {
+    display: flex;
+    align-items: center;
+}
+
+.node-title select {
+    background: none;
+    font-size: 20px;
+    text-align-last: left;
+    width: auto;
+}
+
+.node-marker {
+    background-color: #CAB9FF;
+    width: 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.node-type {
+    margin-top: 18px;
+}
+

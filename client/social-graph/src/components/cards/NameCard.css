@@ -1,0 +1,39 @@
+.name-card {
+    margin-bottom: 7px;
+    background-color: white;
+    border-radius: 10px;
+    width: 366px;
+    height: 143px;
+    margin-top: 22px;
+}
+
+.container {
+    margin-left: 20px;
+    padding-top: 23px;
+}
+
+input {
+    background-color: #F8F9FE;
+    width: 326px;
+    height: 48px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    text-indent: 17px;
+}
+
+input:focus {
+    background-color: white;
+    border:2px solid #CCE1FC;
+}
+
+/* input:focus::placeholder {
+    opacity: 0%;
+} */
+
+::placeholder {
+    opacity: 40%;
+}

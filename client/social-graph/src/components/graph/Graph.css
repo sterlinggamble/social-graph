@@ -1,0 +1,27 @@
+.graph {
+    /* width: calc(100% - 80px); */
+    /* margin-left: 80px; */
+    display: flex;
+}
+
+.title {
+    margin-top: 34px;
+    margin-left: 25px;
+    font-size: 40px;
+}
+
+.cards {
+    /* height: calc(100% - 22px); */
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    /* overscroll-behavior: auto contain; */
+
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}

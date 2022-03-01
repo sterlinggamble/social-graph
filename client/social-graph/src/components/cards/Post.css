@@ -1,0 +1,58 @@
+.post {
+    background-color: #F8F9FE;
+    border-radius: 15px;
+    margin-bottom: 9px;
+    width: 330px;
+}
+
+.post-container {
+    margin-left: 27.5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.profile-pic {
+    width: 33px;
+    height: 33px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.search-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.right-container {
+    margin-left: 10px;
+}
+
+.names {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.name-1 {
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0;
+}
+
+.name-2 {
+    font-weight: bold;
+    font-size: 9px;
+    opacity: 50%;
+    margin: 0;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.content p {
+    font-size: 10px;
+    width: 228px;
+    margin: 0;
+}

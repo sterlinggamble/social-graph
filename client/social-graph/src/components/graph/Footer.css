@@ -1,0 +1,49 @@
+.footer {
+    background-color: white;
+    height: 80px;
+    bottom: 0px;
+    left: 1px;
+    right: 0px;
+    position: absolute; 
+    /* width: calc(100% - 82px); */
+    box-shadow: 0px 2px 40px 0px rgba(216, 216, 216, 0.2);
+}
+
+.buttons {
+    position: absolute;
+    right: 25px;
+    margin-top: 16px;
+}
+
+.button1 {
+    height: 48px;
+    width: 126px;
+    border-radius: 10px;
+    border: 3px solid #F4F4F4;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #F4F4F4;
+}
+
+.button2 {
+    margin-left: 13px;
+    height: 48px;
+    width: 101px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #1F8DED;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #409ae9;
+}
+

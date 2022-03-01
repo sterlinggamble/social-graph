@@ -1,0 +1,16 @@
+.add-post-card {
+    margin-bottom: 7px;
+    background-color: white;
+    border-radius: 10px;
+    width: 366px;
+    height: 143px;
+}
+
+.container {
+    margin-left: 20px;
+    padding-top: 23px;
+}
+
+::placeholder {
+    opacity: 40%;
+}

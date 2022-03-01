@@ -1,0 +1,22 @@
+.posts-card {
+    width: 366px;
+    height: 355px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.container {
+    margin-left: 20px;
+    padding-top: 23px;
+}
+
+.posts {
+    height: 250px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.posts::-webkit-scrollbar {
+    display: none;
+}
